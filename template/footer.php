@@ -74,8 +74,53 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/all@3.0.3/tsparticles.all.bundle.min.js"></script>
-    <script src="js/particle.js"></script>
+    <!-- <script src="js/particle.js"></script> -->
+
+    <script>
+        var swiperBtn = new Swiper(".slideBtnStruktur", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".about_home_image", {
+            effect: "fade",
+            loop:true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".swiperCta", {
+            effect: "fade",
+            loop:true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".swiperBanner", {
+            effect: "fade",
+            loop:true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             effect: "fade",
@@ -121,6 +166,28 @@
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            }
+        });
+    </script>
+    <script>
+        var swiperInorga = new Swiper(".inorgaSlider", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay:true,
+            loop:true,
+            breakpoints: {
+                640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                },
+                768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                },
+                1024: {
+                slidesPerView: 6,
+                spaceBetween: 5,
+                },
             }
         });
     </script>

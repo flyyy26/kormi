@@ -1,138 +1,116 @@
 <?php include 'template/header.php' ?>
 
-<div class="banner">
-    <div class="heading_banner">
-        <h1>Berita & Artikel</h1>
-    </div>
-    <div class="divider"></div>
-</div>
-<div class="berita_section">
-    <img src="images/newspapper_1.svg" alt="" class="newspapper_1">
-    <img src="images/newspapper_2.svg" alt="" class="newspapper_2">
-    <div class="berita_container">
-        <img src="images/hanger_berita.svg" alt="" class="hanger_berita">
-        <img src="images/hanger_berita_mobile.svg" alt="" class="hanger_berita_mobile">
-        <div class="berita_layout">
-            <!-- foreach -->
-             <!-- Tampilkan hanya 4 blog -->
-            <div class="berita_box">
-                <div class="berita_image">
-                    <a href="blog_detail.php">
-                        <img src="images/slide_2.jpg" alt="">
-                    </a>
+<div class="banner_page">
+    <img src="images/banner_page.png" alt="" class="bg_banner">
+    <div class="slide_banner">
+        <div class="swiper swiperBanner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="banner_img">
+                        <div class="banner_img_overlay"></div>
+                        <img src="images/slide_banner_1.png" alt="">
+                    </div>
                 </div>
-                <div class="berita_content">
-                    <a href="blog_detail.php">
-                        <h2>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h2>
-                    </a>
-                    <span>Diposting pada : 02/09/2024</span>
+                <div class="swiper-slide">
+                    <div class="banner_img">
+                        <div class="banner_img_overlay"></div>
+                        <img src="images/slide_banner_2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner_img">
+                        <div class="banner_img_overlay"></div>
+                        <img src="images/slide_banner_3.png" alt="">
+                    </div>
                 </div>
             </div>
-            <div class="berita_box">
-                <div class="berita_image">
-                    <a href="blog_detail.php">
-                        <img src="images/slide_2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="berita_content">
-                    <a href="blog_detail.php">
-                        <h2>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h2>
-                    </a>
-                    <span>Diposting pada : 02/09/2024</span>
-                </div>
-            </div>
-            <div class="berita_box">
-                <div class="berita_image">
-                    <a href="blog_detail.php">
-                        <img src="images/slide_2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="berita_content">
-                    <a href="blog_detail.php">
-                        <h2>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h2>
-                    </a>
-                    <span>Diposting pada : 02/09/2024</span>
-                </div>
-            </div>
-            <div class="berita_box">
-                <div class="berita_image">
-                    <a href="blog_detail.php">
-                        <img src="images/slide_2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="berita_content">
-                    <a href="blog_detail.php">
-                        <h2>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h2>
-                    </a>
-                    <span>Diposting pada : 02/09/2024</span>
-                </div>
-            </div>
-            <!-- Tampilkan hanya 4 blog -->
-            <!-- foreach -->
-             <div class="pagination_berita">
-                <div class="pagination_layout">
-                    <a href="#">
-                        <button>1</button>
-                    </a>
-                    <a href="#">
-                        <button>2</button>
-                    </a>
-                </div>
-             </div>
         </div>
     </div>
-    <div class="berita_recents_container">
-        <div class="berita_recents">
-            <div class="berita_recents_layout">
-                <h2>Berita Lainnya</h2>
-                <div class="berita_recents_box">
-                    <!-- foreach -->
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
+    <div class="content_banner">
+        <h1 class="heading_page">BERITA & ARTIKEL</h1>
+        <h3>KORMI KABUPATEN BOGOR</h3>
+    </div>
+</div>
+<div class="artikel_section">
+    <div class="search_artikel_mobile">
+        <div class="artikel_section_sidebar_box">
+            <div class="search_sidebar">
+                <input type="text" placeholder="Cari Berita">
+                <iconify-icon icon="ic:round-search"></iconify-icon>
+            </div>
+        </div>
+    </div>
+    <div class="artikel_section_list_container">
+        <div class="artikel_section_list">
+            <!-- foreach disini -->
+            <div class="artikel_section_box">
+                <div class="artikel_section_image">
+                    <a href="blog_detail.php">
+                        <img src="images/galeri_1.png" alt="">
                     </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
+                </div>
+                <div class="artikel_section_content">
+                    <a href="blog_detail.php">
+                        <h1>Pentingnya Bantuan Kemanusiaan dalam Menghadapi Krisis Global</h1>
                     </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <!-- foreach -->
+                    <span><iconify-icon icon="healthicons:calendar"></iconify-icon> September 28, 2024</span>
                 </div>
             </div>
-            <img src="images/stand_wood.svg" alt="" class="stand_wood">
+            <!-- foreach disini -->
+        </div>
+    </div>
+    <div class="artikel_section_sidebar">
+        <div class="artikel_section_sidebar_container">
+            <div class="artikel_section_sidebar_box artikel_section_sidebar_box_dekstop">
+                <h3>Cari di Kormi Kab. Bogor</h3>
+                <div class="search_sidebar">
+                    <input type="text" placeholder="Cari Berita">
+                    <iconify-icon icon="ic:round-search"></iconify-icon>
+                </div>
+            </div>
+            <div class="artikel_section_sidebar_box">
+                <h3>Berita Terbaru</h3>
+                <div class="artikel_section_recent">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Kemanusiaan sebagai Pilar Kehidupan yang Lebih Baik
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>

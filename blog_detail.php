@@ -1,89 +1,142 @@
 <?php include 'template/header.php' ?>
 
-<div class="banner">
-    <div class="heading_banner">
-        <h1>Berita & Artikel</h1>
-    </div>
-    <div class="divider"></div>
-</div>
-<div class="berita_section">
-    <img src="images/newspapper_1.svg" alt="" class="newspapper_1">
-    <img src="images/newspapper_2.svg" alt="" class="newspapper_2">
-    <div class="berita_container">
-        <img src="images/stand_wood_detail.svg" alt="" class="hanger_berita_detail">
-        <img src="images/hanger_berita_mobile.svg" alt="" class="hanger_berita_mobile">
-        <div class="berita_detail_layout">
-             <!-- Tampilkan blog -->
-            <div class="berita_box_detail">
-                <div class="berita_image_detail">
-                    <img src="images/slide_2.jpg" alt="">
+<div class="banner_page">
+    <img src="images/banner_page.png" alt="" class="bg_banner">
+    <div class="slide_banner">
+        <div class="swiper swiperBanner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="banner_img">
+                        <div class="banner_img_overlay"></div>
+                        <img src="images/slide_banner_1.png" alt="">
+                    </div>
                 </div>
-                <div class="berita_content_detail">
-                    <h2>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod possimus delectus, debitis amet a ratione necessitatibus quasi totam facere officiis perspiciatis, atque quis tenetur minus nobis quibusdam ad minima aperiam? Saepe enim aut odit, a voluptates tenetur temporibus, sapiente, reprehenderit nam officiis nesciunt. Magnam deserunt animi vitae amet eaque possimus ullam delectus aliquid, eos quos, quas iste dolorem sunt dolorum veritatis minima veniam sapiente sed unde assumenda voluptate dignissimos eligendi asperiores quae! Eius perspiciatis aspernatur rerum id laboriosam architecto consectetur autem veritatis! Commodi repudiandae, dignissimos deleniti laborum eaque cumque incidunt sequi alias, harum autem delectus corporis adipisci amet. Dolorum, beatae?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium nesciunt voluptatibus adipisci ut quidem, incidunt nostrum saepe iure. Incidunt dolorum dignissimos assumenda hic quaerat voluptate omnis eligendi, libero amet, quisquam ad, odio facere consequatur tempora perferendis illo quidem explicabo repellat blanditiis odit nesciunt architecto! Exercitationem voluptates, blanditiis dolores repellendus provident atque itaque necessitatibus natus sit, neque fugit consequatur molestiae facilis accusamus temporibus doloribus voluptatum aliquid veritatis quaerat. Voluptatibus, fugit itaque. Consequuntur harum nulla ea vitae. Ipsam tempora eveniet veritatis repellendus cumque possimus ducimus adipisci repudiandae voluptate iusto quas in architecto laborum, reprehenderit, sequi at, quasi modi officia distinctio! Possimus, architecto!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, itaque consequuntur! Aut aspernatur explicabo reiciendis blanditiis nostrum voluptates dolores at aperiam illum expedita ipsum dolorum sequi iusto impedit, quis esse ab odit quia quod tempora eius! Dignissimos quaerat tenetur corrupti sit vitae pariatur repellendus quia dolorum quod rerum harum, libero quibusdam ad voluptate autem sequi amet voluptates aliquid placeat dolore corporis repellat similique odit accusamus? Vel optio distinctio cumque repellat! Placeat et asperiores porro veritatis quaerat rem quisquam nihil facere magnam labore voluptatem quos, esse laborum illo blanditiis incidunt inventore est. Assumenda officia, architecto qui recusandae fuga facilis libero incidunt!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tenetur odio incidunt, corrupti debitis cumque illo, explicabo laborum eos odit ipsa minima est placeat atque esse fuga. Hic eum perferendis nostrum optio culpa repellendus quas explicabo nulla voluptatum, illum perspiciatis mollitia illo itaque nesciunt debitis quis accusamus laudantium. Quisquam, et cupiditate, repudiandae nihil enim ducimus consequuntur doloribus sapiente omnis, culpa ratione voluptatibus atque hic id porro? Sequi natus id, quos laudantium corrupti veritatis a odio. Atque, recusandae! Aspernatur accusamus a natus perspiciatis dolorem voluptas, repellat earum eius ducimus facere fugiat? At ad laudantium molestias delectus amet laboriosam vero eos voluptatibus?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ab cupiditate expedita doloremque rem corrupti eligendi quaerat nisi eveniet corporis voluptate, necessitatibus laborum fuga repudiandae mollitia harum dignissimos illo? Ipsam placeat consectetur asperiores molestiae. Magnam nam atque sit sint sunt quisquam accusantium voluptate, autem quae vero facere perspiciatis aliquid voluptatibus veritatis officiis dolor commodi placeat libero et veniam inventore? Adipisci voluptatum, necessitatibus eveniet porro libero cupiditate recusandae fugiat facere fugit laboriosam at accusamus consequatur ipsam explicabo cumque perferendis qui autem soluta quod cum reiciendis, hic repellendus? Iure rerum dolorem adipisci provident ipsa quibusdam magni et, temporibus consectetur asperiores soluta velit!</p>
+                <div class="swiper-slide">
+                    <div class="banner_img">
+                        <div class="banner_img_overlay"></div>
+                        <img src="images/slide_banner_2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner_img">
+                        <div class="banner_img_overlay"></div>
+                        <img src="images/slide_banner_3.png" alt="">
+                    </div>
                 </div>
             </div>
-            <!-- Tampilkan blog -->
         </div>
     </div>
-    <div class="berita_recents_container">
-        <div class="berita_recents">
-            <div class="berita_recents_layout">
-                <h2>Berita Lainnya</h2>
-                <div class="berita_recents_box">
-                    <!-- foreach -->
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="berita_recents_box_content">
-                            <iconify-icon icon="gravity-ui:circle-chevron-right-fill"></iconify-icon>
-                            <span>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</span>
-                        </div>
-                    </a>
-                    <!-- foreach -->
+    <div class="content_banner">
+        <h1 class="heading_page">BERITA & ARTIKEL</h1>
+        <h3>KORMI KABUPATEN BOGOR</h3>
+    </div>
+</div>
+<div class="artikel_section artikel_section_detail">
+    <div class="search_artikel_mobile">
+        <div class="artikel_section_sidebar_box">
+            <div class="search_sidebar">
+                <input type="text" placeholder="Cari Berita">
+                <iconify-icon icon="ic:round-search"></iconify-icon>
+            </div>
+        </div>
+    </div>
+    <div class="artikel_section_list_container artikel_section_list_container_detail">
+        <div class="artikel_section_list artikel_section_list_detail">
+            <div class="artikel_detail_layout">
+                <div class="artikel_detail_heading">
+                    <h1>Pentingnya Bantuan Kemanusiaan dalam Menghadapi Krisis Global</h1>
+                </div>
+                <div class="artikel_detail_image">
+                    <img src="images/galeri_1.png" alt="">
+                </div>
+                <div class="artikel_detail_content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati enim in ducimus nemo perferendis distinctio animi dolorem dolores similique libero fugit modi esse nostrum repellat et, aliquam ullam voluptate a.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima hic aliquid repellat aut magni itaque. Quaerat, incidunt nulla! Quis facere libero officiis eum fugit et similique aliquam atque eligendi?</p>
+                    <img src="images/galeri_1.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, minima laudantium sunt molestias ipsam nostrum magni illum dicta numquam quia. Dolorum delectus asperiores placeat? Pariatur reiciendis vero incidunt eum veniam?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur velit ut, pariatur placeat in ea nam nesciunt odio, ducimus, error eos repudiandae natus sapiente corrupti! Autem nemo doloribus, totam, obcaecati laudantium perferendis repudiandae laborum iusto, accusantium quod eius fugiat labore.</p>
+                </div>
+                <div class="artikel_detail_share">
+                    <h3>Bagikan Berita :</h3>
+                    <div class="artikel_detail_share_layout">
+                        <a href="#">
+                            <div class="artikel_detail_share_box">
+                                <iconify-icon icon="ic:baseline-facebook"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="artikel_detail_share_box">
+                                <iconify-icon icon="ic:baseline-telegram"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="artikel_detail_share_box">
+                                <iconify-icon icon="ic:baseline-whatsapp"></iconify-icon>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="artikel_detail_share_box">
+                                <iconify-icon icon="pajamas:twitter"></iconify-icon>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <img src="images/stand_wood.svg" alt="" class="stand_wood">
+        </div>
+    </div>
+    <div class="artikel_section_sidebar">
+        <div class="artikel_section_sidebar_container">
+            <div class="artikel_section_sidebar_box artikel_section_sidebar_box_dekstop">
+                <h3>Cari di AVI Humanity</h3>
+                <div class="search_sidebar">
+                    <input type="text" placeholder="Cari Berita">
+                    <iconify-icon icon="ic:round-search"></iconify-icon>
+                </div>
+            </div>
+            <div class="artikel_section_sidebar_box">
+                <h3>Berita Terbaru</h3>
+                <div class="artikel_section_recent">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Kemanusiaan sebagai Pilar Kehidupan yang Lebih Baik
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
+                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 <?php include 'template/footer.php' ?>

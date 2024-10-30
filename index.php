@@ -1,139 +1,244 @@
-<?php include 'template/header.php' ?>    
-    <div class="slider">
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-            <div class="heading_banner">
-                <span>Selamat datang di situs resmi</span>
-                <img src="images/heading_banner.png" alt="" class="heading_banner_dekstop">
-                <img src="images/heading_banner_mobile.png" alt="" class="heading_banner_mobile">
-                <h3>Kabupaten Bogor</h3>
-                <a href="https://caleg.prahwa.net/form-pendaftaran" target="_blank"><button>Ayo Bergabung</button></a>
+<?php include 'template/header.php' ?>
+    <div class="banner">
+        <img src="images/bg_banner_sc.png" alt="" class="bg_banner">
+        <div class="slide_banner">
+            <div class="swiper swiperBanner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="banner_img">
+                            <div class="banner_img_overlay"></div>
+                            <img src="images/slide_banner_1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner_img">
+                            <div class="banner_img_overlay"></div>
+                            <img src="images/slide_banner_2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner_img">
+                            <div class="banner_img_overlay"></div>
+                            <img src="images/slide_banner_3.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="tsparticles"></div>
-            <div class="slide_overlay"></div>
-              <div class="swiper-slide">
-                <div class="slide_img_banner">
-                    
-                    <img src="images/pakansari.jpg" class="slide_img" alt="KORMI KABUPATEN BOGOR">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slide_img_banner">
-                    <img src="images/slide_3.jpg" class="slide_img" alt="KORMI KABUPATEN BOGOR">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="slide_img_banner">
-                    <img src="images/slide_4.jpg" class="slide_img" alt="KORMI KABUPATEN BOGOR">
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
         </div>
-        <img src="images/icon_slide_1.svg" alt="KORMI KABUPATEN BOGOR" class="icon_slide_1">
-        <img src="images/icon_slide_2.svg" alt="KORMI KABUPATEN BOGOR" class="icon_slide_2">
+        <div class="content_banner">
+            <h3>SELAMAT DATANG DI SITUS RESMI</h3>
+            <h1>KOMITE OLAHRAGA & REKREASI MASYARAKAT INDONESIA</h1>
+            <!-- <img src="images/heading_banner.png" alt="" class="heading_banner"> -->
+            <img src="images/kab_heading.png" alt="" class="kab_heading">
+            <a href="#"><button>AYO BERGABUNG <iconify-icon icon="tabler:arrow-right"></iconify-icon></button></a>
+        </div>
     </div>
-    <div class="event_home">
-        <div class="divider"></div>
-        <div class="heading_event">
-            <img src="images/heading_berita.png" alt="">
+    <div class="about_home">
+        <div class="swiper about_home_image">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="about_home_img">
+                        <img src="images/sejarah_image.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about_home_img">
+                        <img src="images/slide_4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about_home_img">
+                        <img src="images/image_sejarah.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="content_event">
-            <div class="outcoming_event">
-                <h3>Berita Terbaru</h3>
-                <div class="outcoming_event_layout">
+        <div class="about_home_content">
+            <div class="heading_home heading_home_left">
+                <h1>TENTANG KORMI</h1>
+            </div>
+            <div class="content_p">
+                <p>KORMI merupakan satu-satunya wadah berhimpun dari organisasi-organisasi olahraga rekreasi yang tumbuh dan berkembang di masyarakat, baik secara nasional maupun di daerah, menjadi mitra strategis pemerintah, pemerintah daerah dan masyarakat dalam kerangka mendorong dan menggerakkan pembinaan dan pengembangan olahraga rekreasi di seluruh Indonesia.</p>
+                <p>KORMI (Komite Olahraga Rekreasi Masyarakat Indonesia) berfokus pada:</p>
+                <ul>
+                    <li>Peningkatan Kesehatan Masyarakat</li>
+                    <li>Pengembangan Olahraga Rekreasi</li>
+                    <li>Pelestarian Budaya dan Tradisi</li>
+                    <li>Penguatan Kebugaran dan Kesejahteraan</li>
+                </ul>
+            </div>
+            <a href=""><button class="btn_primary">Baca Selengkapnya</button></a>
+        </div>
+    </div>
+    <div class="article_home">
+        <div class="heading_home">
+            <h1>BERITA & ARTIKEL</h1>
+            <p>Berita Terkini tentang Olahraga, Kesehatan & Kreativitas Masyarakat Indonesia</p>
+        </div>
+        <div class="article_home_layout">
+            <div class="article_home_box">
+                <div class="article_home_image">
                     <a href="#">
-                        <div class="outcoming_event_image">
-                            <img src="images/galeri_1.png" alt="">
-                            <div class="outcoming_event_content">
-                                <h1>Festival olahraga Kabupaten Bogor</h1>
-                                <span>Diposting pada : 26/08/2024</span>
-                            </div>
-                        </div>
+                        <img src="images/galeri_1.png" alt="">
                     </a>
+                </div>
+                <div class="article_home_content">
+                    <span>Diposting pada 26/08/2024</span>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequuntur iste deleniti quam. Velit, temporibus minima?</p>
+                    <a href="#"><button class="btn_primary">Baca Selengkapnya</button></a>
                 </div>
             </div>
-            <div class="incoming_event">
-                <div class="heading_incoming_event">
-                    <h3>Berita Lainnya</h3>
+            <div class="article_home_box">
+                <div class="article_home_image">
+                    <a href="#">
+                        <img src="images/galeri_1.png" alt="">
+                    </a>
                 </div>
-                <div class="incoming_event_layout">
-                    <a href="">
-                        <div class="incoming_event_box">
-                            <div class="incoming_event_image">
-                                <img src="images/galeri_2.png" alt="">
-                            </div>
-                            <div class="incoming_event_content">
-                                <h1>Pelantikan pengurus KORMI Kabupaten Bogor</h1>
-                                <span>Diposting pada : 26/08/2024</span>
-                            </div>
-                        </div>
+                <div class="article_home_content">
+                    <span>Diposting pada 26/08/2024</span>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequuntur iste deleniti quam. Velit, temporibus minima?</p>
+                    <a href="#"><button class="btn_primary">Baca Selengkapnya</button></a>
+                </div>
+            </div>
+            <div class="article_home_box">
+                <div class="article_home_image">
+                    <a href="#">
+                        <img src="images/galeri_1.png" alt="">
                     </a>
-                    <a href="">
-                        <div class="incoming_event_box">
-                            <div class="incoming_event_image">
-                                <img src="images/galeri_2.png" alt="">
-                            </div>
-                            <div class="incoming_event_content">
-                                <h1>Pelantikan pengurus KORMI Kabupaten Bogor</h1>
-                                <span>Diposting pada : 26/08/2024</span>
-                            </div>
-                        </div>
+                </div>
+                <div class="article_home_content">
+                    <span>Diposting pada 26/08/2024</span>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequuntur iste deleniti quam. Velit, temporibus minima?</p>
+                    <a href="#"><button class="btn_primary">Baca Selengkapnya</button></a>
+                </div>
+            </div>
+            <div class="article_home_box">
+                <div class="article_home_image">
+                    <a href="#">
+                        <img src="images/galeri_1.png" alt="">
                     </a>
+                </div>
+                <div class="article_home_content">
+                    <span>Diposting pada 26/08/2024</span>
+                    <h1>Lorem ipsum dolor sit amet.</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam consequuntur iste deleniti quam. Velit, temporibus minima?</p>
+                    <a href="#"><button class="btn_primary">Baca Selengkapnya</button></a>
                 </div>
             </div>
         </div>
-        <img src="images/event_bg.png" class="event_home_bg" alt="">
-        <img src="images/bg_event_mobile.png" class="event_home_bg_mobile" alt="">
     </div>
-    <div class="section_2">
-        <img src="images/section_2_heading.png" class="heading_section_2" alt="KORMI KABUPATEN BOGOR">
-        <div class="stand_section_2">
-            <span>Bersama Kita Wujudkan Gaya Hidup Sehat dan Rekreasi Aktif!</span>
-            <img src="images/stand_wood.png" alt="KORMI KABUPATEN BOGOR" class="wood_left">
-            <img src="images/stand_wood.png" alt="KORMI KABUPATEN BOGOR" class="wood_right">
+    <div class="cta_home">
+        <div class="cta_home_layout">
+            <div class="cta_home_content">
+                <img src="images/gabung_heading.png" alt="" class="heading_gabung">
+                <p>Bersama kita wujudkan gaya hidup sehat dan rekreasi kreatif</p>
+            </div>
+            <div class="cta_home_button">
+                <a href="https://caleg.prahwa.net/form-pendaftaran" target="_blank"><button>Klik disini & Gabung!</button></a>
+            </div>
         </div>
-        <a href="https://caleg.prahwa.net/form-pendaftaran" target="_blank"><button>Klik Disini untuk gabung</button></a>
-        <div class="divider"></div>
     </div>
-    <div class="section_3" id="organisasi">
-        <div class="section_3_content">
-            <h1>Komite Olahraga Masyarakat Indonesia (KORMI)</h1>
-            <p>Lembaga yang menaungi berbagai induk olahraga (Inorga) rekreasi di Indonesia. Olahraga rekreasi adalah salah satu jenis olahraga yang diatur dalam UU Nomor 5 Tahun 2005 tentang Sistem Keolahragaan Nasional. Dalam UU tersebut, sistem keolahragaan nasional dibagi menjadi olahraga pendidikan, olahraga prestasi dan olahraga rekreasi. Atlet olahraga rekreasi sering disebut sebagai pegiat olahraga.</p>
-            <p>KORMI merupakan anggota TAFISA, organisasi internasional yang menyebarluaskan gerakan Sport for All di dunia yang bertujuan agar olahraga dilakukan oleh semua orang dari segala usia dan tingkatan ekonomi. TAFISA bersama KORMI (saat itu bernama FORMI) dan Kemenpora menyelenggarakan TAFISA World Games edisi ke-6 pada tahun 2016 di Jakarta.</p>
-            <a href="tentang-kormi.php"><button>Lihat Profil <iconify-icon icon="la:search"></iconify-icon></button></a>
+    <div class="section_inorga">
+        <div class="heading_home">
+            <h1>INDUK OLAHRAGA KORMI KAB. BOGOR</h1>
+            <p>Kormi adalah lembaga induk yang membawahi berbagai cabang olahraga rekreasi di Indonesia.</p>
         </div>
-        <div class="swiper swiperGaleri">
+        <div class="swiper inorgaSlider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="galeri_slide">
-                        <img src="images/galeri_6.jpg" alt="">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="galeri_slide">
-                        <img src="images/galeri_2.png" alt="">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="galeri_slide">
-                        <img src="images/galeri_3.png" alt="">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="galeri_slide">
-                        <img src="images/galeri_4.png" alt="">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="galeri_slide">
-                        <img src="images/galeri_5.png" alt="">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="inorga_box">
+                        <div class="inorga_image">
+                            <img src="images/inorga.png" alt="">
+                        </div>
+                        <h1>Airsoft Kabupaten Bogor</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="section_4">
+        <div class="heading_home">
+            <h1>HUBUNGI KAMI</h1>
+            <p>Tim kami akan dengan senang hati menjawab setiap pertanyaan Anda</p>
+        </div>
         <div class="contact_layout" id="kontak">
             <a href="https://www.facebook.com/groups/2631848220396609/" target="_blank">
                 <div class="contact_box">
@@ -153,10 +258,17 @@
                     <span>KORMI KABUPATEN BOGOR</span>
                 </div>
             </a>
+            <a href="https://www.youtube.com/channel/UCxh7whT6tMH4iIdEQrXBpDg" target="_blank">
+                <div class="contact_box">
+                    <img src="images/whatsapp_icon.svg" alt="">
+                    <span>+628956-1041-1991</span>
+                </div>
+            </a>
         </div>
         <div class="iframe_wrapper">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.564851492757!2d106.79444357604142!3d-6.576470064290621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5a18b4908f5%3A0xe4df44fc5a41c9c3!2sKORMI%20Kota%20Bogor!5e0!3m2!1sen!2sid!4v1726543462993!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/all@3.0.3/tsparticles.all.bundle.min.js"></script>
 <?php include 'template/footer.php' ?>
