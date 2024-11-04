@@ -2,6 +2,7 @@
 
 <div class="banner_page">
     <img src="images/banner_page.png" alt="" class="bg_banner">
+    <!-- <img src="images/banner_mobile_page.png" alt="" class="bg_banner_mobile"> -->
     <div class="slide_banner">
         <div class="swiper swiperBanner">
             <div class="swiper-wrapper">
@@ -33,11 +34,9 @@
 </div>
 <div class="artikel_section">
     <div class="search_artikel_mobile">
-        <div class="artikel_section_sidebar_box">
-            <div class="search_sidebar">
-                <input type="text" placeholder="Cari Berita">
-                <iconify-icon icon="ic:round-search"></iconify-icon>
-            </div>
+        <div class="search_sidebar">
+            <input type="text" placeholder="Cari Berita">
+            <iconify-icon icon="ic:round-search"></iconify-icon>
         </div>
     </div>
     <div class="artikel_section_list_container">
@@ -51,7 +50,33 @@
                 </div>
                 <div class="artikel_section_content">
                     <a href="blog_detail.php">
-                        <h1>Pentingnya Bantuan Kemanusiaan dalam Menghadapi Krisis Global</h1>
+                        <h1>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h1>
+                    </a>
+                    <span><iconify-icon icon="healthicons:calendar"></iconify-icon> September 28, 2024</span>
+                </div>
+            </div>
+            <div class="artikel_section_box">
+                <div class="artikel_section_image">
+                    <a href="blog_detail.php">
+                        <img src="images/galeri_1.png" alt="">
+                    </a>
+                </div>
+                <div class="artikel_section_content">
+                    <a href="blog_detail.php">
+                        <h1>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h1>
+                    </a>
+                    <span><iconify-icon icon="healthicons:calendar"></iconify-icon> September 28, 2024</span>
+                </div>
+            </div>
+            <div class="artikel_section_box">
+                <div class="artikel_section_image">
+                    <a href="blog_detail.php">
+                        <img src="images/galeri_1.png" alt="">
+                    </a>
+                </div>
+                <div class="artikel_section_content">
+                    <a href="blog_detail.php">
+                        <h1>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h1>
                     </a>
                     <span><iconify-icon icon="healthicons:calendar"></iconify-icon> September 28, 2024</span>
                 </div>
@@ -75,37 +100,37 @@
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Kemanusiaan sebagai Pilar Kehidupan yang Lebih Baik
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                     </ul>

@@ -36,7 +36,7 @@
         <div class="proker_layout">
             <div class="proker_box">
                 <div class="proker_image">
-                    <img src="images/about_image.jpg" alt="">
+                    <img src="images/galeri_4.png" alt="">
                 </div>
                 <div class="proker_content">
                     <h1>Pembinaan Koordinator Kecamatan</h1>
@@ -45,7 +45,7 @@
             </div>
             <div class="proker_box">
                 <div class="proker_image">
-                    <img src="images/about_image.jpg" alt="">
+                    <img src="images/galeri_2.png" alt="">
                 </div>
                 <div class="proker_content">
                     <h1>Pembinaan Koordinator Kecamatan</h1>
@@ -54,7 +54,7 @@
             </div>
             <div class="proker_box">
                 <div class="proker_image">
-                    <img src="images/about_image.jpg" alt="">
+                    <img src="images/galeri_5.png" alt="">
                 </div>
                 <div class="proker_content">
                     <h1>Pembinaan Koordinator Kecamatan</h1>
@@ -63,7 +63,7 @@
             </div>
             <div class="proker_box">
                 <div class="proker_image">
-                    <img src="images/about_image.jpg" alt="">
+                    <img src="images/galeri_3.png" alt="">
                 </div>
                 <div class="proker_content">
                     <h1>Pembinaan Koordinator Kecamatan</h1>
@@ -72,7 +72,7 @@
             </div>
             <div class="proker_box">
                 <div class="proker_image">
-                    <img src="images/about_image.jpg" alt="">
+                    <img src="images/slide_3.jpg" alt="">
                 </div>
                 <div class="proker_content">
                     <h1>Pembinaan Koordinator Kecamatan</h1>
@@ -81,7 +81,7 @@
             </div>
             <div class="proker_box">
                 <div class="proker_image">
-                    <img src="images/about_image.jpg" alt="">
+                    <img src="images/sejarah_image.webp" alt="">
                 </div>
                 <div class="proker_content">
                     <h1>Pembinaan Koordinator Kecamatan</h1>

@@ -4,24 +4,19 @@
                 <img src="images/logo.png" alt="">
                 <p>Nama domain 'www.kormikabupatenbogor.or.id' adalah milik KORMI Kabupaten Bogor, sebuah platform yang menyediakan panduan dan informasi untuk kegiatan olahraga, solidaritas sosial, dan kreativitas untuk masyarakat.</p>
                 <div class="social_media_footer">
-                    <a href="">
+                    <a href="https://api.whatsapp.com/send?phone=6285121918149" target="blank_">
                         <div class="social_media_box">
                             <iconify-icon icon="ic:round-whatsapp"></iconify-icon>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/kormikabupatenbogor/" target="blank_">
                         <div class="social_media_box">
                             <iconify-icon icon="basil:instagram-outline"></iconify-icon>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://www.facebook.com/groups/2631848220396609/" target="blank_">
                         <div class="social_media_box">
                             <iconify-icon icon="ic:round-facebook"></iconify-icon>
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="social_media_box">
-                            <iconify-icon icon="ic:round-tiktok"></iconify-icon>
                         </div>
                     </a>
                 </div>
@@ -58,15 +53,22 @@
                 <div class="company_data_box">
                     <iconify-icon icon="carbon:location-filled"></iconify-icon>
                     <div class="company_data_content">
-                        <h5>Jl. Pemuda, RT.04/RW.01, Tanah Sareal</h5>
-                        <p>Kec. Tanah Sereal, Kota Bogor, Jawa Barat 16161</p>
+                        <h5>Stadion Pakansari Gate 6, Pakansari</h5>
+                        <p>Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16915</p>
                     </div>
                 </div>
                 <div class="company_data_box">
                     <iconify-icon icon="mdi:envelope"></iconify-icon>
                     <div class="company_data_content">
                         <h5>Email</h5>
-                        <p>cs@kormikabupatenbogor.or.id</p>
+                        <p>kormikabupatenbogor@gmail.com </p>
+                    </div>
+                </div>
+                <div class="company_data_box">
+                    <iconify-icon icon="ic:baseline-phone"></iconify-icon>
+                    <div class="company_data_content">
+                        <h5>Nomor Telepon</h5>
+                        <p>+62 851 21918149</p>
                     </div>
                 </div>
             </div>
@@ -77,9 +79,40 @@
     <!-- <script src="js/particle.js"></script> -->
 
     <script>
+        var swiper = new Swiper(".eventSlide", {
+
+            autoHeight: true,
+            loop:true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            // cssMode: true,
+            // mousewheel: true,
+            // keyboard: true,
+            
+        });
+    </script>
+
+    <script>
         var swiperBtn = new Swiper(".slideBtnStruktur", {
-        slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 10,
+        // loop:true,
+        slidesPerView: "auto",
+        breakpoints: {
+                640: {
+                slidesPerView: "auto",
+                spaceBetween: 10,
+                },
+                768: {
+                slidesPerView: "auto",
+                spaceBetween: 10,
+                },
+                1024: {
+                slidesPerView: "auto",
+                spaceBetween: 20,
+                },
+            },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -111,10 +144,10 @@
         var swiper = new Swiper(".swiperBanner", {
             effect: "fade",
             loop:true,
-            autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-            },
+            // autoplay: {
+            //     delay: 2000,
+            //     disableOnInteraction: false,
+            // },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -171,18 +204,18 @@
     </script>
     <script>
         var swiperInorga = new Swiper(".inorgaSlider", {
-            slidesPerView: 1,
-            spaceBetween: 30,
+            slidesPerView: 4,
+            spaceBetween: 10,
             autoplay:true,
             loop:true,
             breakpoints: {
                 640: {
-                slidesPerView: 1,
-                spaceBetween: 20,
+                slidesPerView: 4,
+                spaceBetween: 10,
                 },
                 768: {
-                slidesPerView: 2,
-                spaceBetween: 30,
+                slidesPerView: 4,
+                spaceBetween: 20,
                 },
                 1024: {
                 slidesPerView: 6,

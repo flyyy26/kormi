@@ -44,7 +44,7 @@
         <div class="artikel_section_list artikel_section_list_detail">
             <div class="artikel_detail_layout">
                 <div class="artikel_detail_heading">
-                    <h1>Pentingnya Bantuan Kemanusiaan dalam Menghadapi Krisis Global</h1>
+                    <h1>FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat</h1>
                 </div>
                 <div class="artikel_detail_image">
                     <img src="images/galeri_1.png" alt="">
@@ -87,7 +87,7 @@
     <div class="artikel_section_sidebar">
         <div class="artikel_section_sidebar_container">
             <div class="artikel_section_sidebar_box artikel_section_sidebar_box_dekstop">
-                <h3>Cari di AVI Humanity</h3>
+                <h3>Cari di Kormi Kab. Bogor</h3>
                 <div class="search_sidebar">
                     <input type="text" placeholder="Cari Berita">
                     <iconify-icon icon="ic:round-search"></iconify-icon>
@@ -100,37 +100,37 @@
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Kemanusiaan sebagai Pilar Kehidupan yang Lebih Baik
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                         <li>
                             <a href="">
                                 <iconify-icon icon="mage:chevron-right-circle-fill"></iconify-icon>
-                                Mengapa AVI Humanity Hadir untuk Memberdayakan Masyarakat
+                                FORKAB 2023: Bawa semangat partisipasi olahraga masyarakat
                             </a>
                         </li>
                     </ul>

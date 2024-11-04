@@ -1,6 +1,7 @@
 <?php include 'template/header.php' ?>
     <div class="banner">
         <img src="images/bg_banner_sc.png" alt="" class="bg_banner">
+        <img src="images/banner_mobile.png" alt="" class="bg_banner_mobile">
         <div class="slide_banner">
             <div class="swiper swiperBanner">
                 <div class="swiper-wrapper">
@@ -31,6 +32,46 @@
             <!-- <img src="images/heading_banner.png" alt="" class="heading_banner"> -->
             <img src="images/kab_heading.png" alt="" class="kab_heading">
             <a href="#"><button>AYO BERGABUNG <iconify-icon icon="tabler:arrow-right"></iconify-icon></button></a>
+        </div>
+    </div>
+    <!-- kalau event 0 maka section "event_kormi" di hide -->
+    <div class="event_kormi">
+        <div class="heading_home">
+            <h1>EVENT KORMI KAB. BOGOR</h1>
+        </div>
+        <div class="swiper eventSlide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="event_layout">
+                        <div class="event_content">
+                            <h1>Color Pound September Ceria</h1>
+                            <div>
+                                <p>Untuk kamu yang mau rasain nikmatnya olahraga sekaligus bisa happy-happy, jangan lupa Ikutan COLOR POUND kita bareng @karmalogy 🥳</p>
+                                <p>Kebayangkaaan gimana kita bisa hempasin semuanya sambil ngepound, ditemenin ka @karmalogy sahabat bunda-bunda muda mudi pastinya 😆 dan habis itu ada fun games buat teman-teman yang sudah mendaftarkan diri..pokoknya seharian kita restock endorphine bareng-bareng</p>
+                                <p>Kamu bisa regis melalui link di bawah atau chat kami untuk lebih cepat ya 🤗</p>
+                            </div>
+                            <a href="#"><button>Daftar Event</button></a>
+                        </div>
+                        <div class="event_image">
+                            <img src="images/event_image.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div div class="event_layout">
+                        <div class="event_content">
+                            <h1>Color Pound September Ceria</h1>
+                            <p>Kebayangkaaan gimana kita bisa hempasin semuanya sambil ngepound, ditemenin ka @karmalogy sahabat bunda-bunda muda mudi pastinya 😆 dan habis itu ada fun games buat teman-teman yang sudah mendaftarkan diri..pokoknya seharian kita restock endorphine bareng-bareng</p>
+                            <a href="#"><button>Daftar Event</button></a>
+                        </div>
+                        <div class="event_image">
+                            <img src="images/event_image.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </div>
     <div class="about_home">
@@ -258,15 +299,15 @@
                     <span>KORMI KABUPATEN BOGOR</span>
                 </div>
             </a>
-            <a href="https://www.youtube.com/channel/UCxh7whT6tMH4iIdEQrXBpDg" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=6285121918149" target="_blank">
                 <div class="contact_box">
                     <img src="images/whatsapp_icon.svg" alt="">
-                    <span>+628956-1041-1991</span>
+                    <span>+62 851 21918149</span>
                 </div>
             </a>
         </div>
         <div class="iframe_wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.564851492757!2d106.79444357604142!3d-6.576470064290621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5a18b4908f5%3A0xe4df44fc5a41c9c3!2sKORMI%20Kota%20Bogor!5e0!3m2!1sen!2sid!4v1726543462993!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15856.842560413374!2d106.833392!3d-6.4949939!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c19092657f6b%3A0x195ea53ba17dbb4f!2sPakansari%20Stadium!5e0!3m2!1sen!2sid!4v1730528570098!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 
